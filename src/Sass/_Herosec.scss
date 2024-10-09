@@ -7,3 +7,41 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+
+.title-wrap{
+    margin-top: 2rem;
+   text-align: center;
+    h1{
+        color: white;
+        font-size: 5rem;
+    }
+    span{
+        color: #041d47;
+        font-size: 1.7rem;
+    }
+    .search-wrap{
+        position: relative;
+        margin-top: 15px;
+        input{
+            width: 55rem;
+            padding: 1.1rem;
+            border-radius: 50px;
+            border: none;
+        }
+        button{
+            position: absolute;
+            margin-top: 6px;
+            right: 215px;
+            border: 1px solid white;
+            border-radius: 55px;
+            background-color: #1fa1df;
+            padding: 7px 30px;
+            span{
+                font-size: 1.3rem;
+                color: white;
+                margin-top: 4px;
+            }
+        }
+    }
+}
